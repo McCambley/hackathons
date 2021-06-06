@@ -1,14 +1,10 @@
 # Hackathons 🎉
 
-## Welcome to a collection of repositories created for separate hackathon events I've participated in
+Over the course of my development career I've enjoyed participating in [hackathons](https://en.wikipedia.org/wiki/Hackathon)! Here's a collection of some of the finished (or nearly finished) works!
 
----
+## Projects
 
-## [View all Projects](https://mccambley.github.io/hackathons/)
-
----
-
-### Cryptoducks - June 5th, 2021
+### _Cryptoducks - June 5th, 2021_ 🦆
 
 - [View Live](https://mccambley.github.io/hackathons/crytpoducks)
-- [View Repo](http://www.example.com)
+- [View Repo](https://github.com/McCambley/hackathons/tree/main/cryptoducks)
