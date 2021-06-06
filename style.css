@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+.body {
+  font-family: 'Merriweather', serif;
+  color: #fff;
+  background-color: #13161f;
+  width: 100%;
+  min-height: 100vh;
+  padding: 36px;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 36px;
+  vertical-align: middle;
+}
+
+.link-text {
+  font-size: 48px;
+}
+
+.transparency {
+  opacity: 1;
+  transition: all 0.3s ease;
+}
+
+.transparency:hover {
+  opacity: 0.7;
+}

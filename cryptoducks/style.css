@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;600&display=swap');
+
+:root {
+  scroll-behavior: smooth;
+}
+
+.body {
+  font-family: 'Baloo Tammudu 2', Arial, sans-serif;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.section-title {
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.company-title {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 900;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+  margin-right: 60px;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+.transparency {
+  opacity: 1;
+  transition: all .3s ease;
+}
+
+.transparency:hover {
+  opacity: .7;
+}
+
+
+/* HEADER */
+.header {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: space-between; 
+  padding: 8px 60px;
+  border-bottom: 1px solid black;
+  align-items: center;
+  height: 76px;
+  position: sticky;
+  top: 0;
+  background-color: rgba(255, 255, 255, .8);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, .2);
+  font-size: 24px;
+  line-height: 1;
+}
+
+.nav-links {
+  display: flex;
+  
+}
+
+/* LEAD SECTION */
+.lead {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.lead-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 700px;
+}
+
+.lead-title {
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  margin: 0;
+}
+
+.lead-logo {
+  margin-bottom: 48px;
+}
+
+.lead-subtitle {
+  width: 100%;
+  text-align: center;
+  line-height: 1;
+  font-size: 28px;
+  margin: 0;
+}
+
+
+
+/*GALLERY STYLES */
+.gallery {
+  background-color: #333;
+  padding: 100px 60px 140px;
+  color: white;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.gallery-grid {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gallery-card {
+  list-style-type: none;
+  max-width: 360px;
+  padding: 0 40px;
+}
+
+.gallery-image {
+  width: 100%;
+}
+
+.gallery-description-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.gallery-description-text {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 400;}
+
+  /* FORM */
+  .reporting {
+    padding: 60px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .form-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+  }
+
+  .form-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+
+  .form-input {
+    margin: 0;
+    margin-bottom: 16px;
+    width: 100%;
+  }
+
+  .form-reset-button {
+    background-color: transparent;
+    color: #000;
+  }
+
+  .form-submit-button {
+    background-color: #000;
+    color: white;
+  }
+
+  .form-reset-button:hover {
+    background-color: lightgray;
+    color: #000;
+  }
+
+  .form-submit-button:hover {
+    background-color: darkgray;
+    color: white;
+  }
+
+.form-text-area {
+  height: 176px;
+}
